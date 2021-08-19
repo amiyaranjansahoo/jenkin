@@ -17,7 +17,7 @@ pipeline{
                classifier: '', file: 'target/myweb-0.0.1-SNAPSHOT.war', 
                type: 'war']], credentialsId: 'nexus3', groupId: 'in.javahome', 
                nexusUrl: '172.31.39.176:8081', nexusVersion: 'nexus3', 
-               protocol: 'http', repository: '13.233.208.183', version: '0.0.1-SNAPSHOT' 
+               protocol: 'http', repository: 'sample-snapshot', version: '0.0.1-SNAPSHOT' 
             }
 
         }
